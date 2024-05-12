@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>721</width>
+    <height>454</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Seyahat Listesi</string>
+  </property>
+  <widget class="QTableWidget" name="tablo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>851</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Başlangıç</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Varış</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Mesafe</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Araçla Varış</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Uçakla Varış</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Otel</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Otel Puanı</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Fiyat</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
